@@ -22,7 +22,7 @@ from azureml.core import Environment
 from azureml.core.environment import CondaDependencies
 
 # Create the environment
-myenv = Environment(name="MyEnvironment")
+myenv = Environment(name="HemzEnvironment")
 
 # Create the dependencies object
 print("Creating dependencies....")
@@ -90,7 +90,7 @@ deploy_config = AksWebservice.deploy_configuration(cpu_cores=1, memory_gb=1)
 # -------------------------------------------------
 from azureml.core.model import Model
 
-model = ws.models["AdultIncome_model"]
+model = ws.models["AdultIncome_models"]
 
 print("Deploying the web service....")
 service = Model.deploy(

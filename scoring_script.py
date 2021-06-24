@@ -10,10 +10,10 @@ import pandas as pd
 
 # Called when the service is loaded
 def init():
-    global ref_cols, predictor
+    global ref_columns, predictor
     # Get the path to the registered model file and load it
-    model_path = Model.get_model_path("AdultIncome_model")
-    ref_cols, predictor = joblib.load(model_path)
+    model_path = Model.get_model_path("AdultIncome_models")
+    ref_columns, predictor = joblib.load(model_path)
 
 
 # Called when a request is received
@@ -32,12 +32,12 @@ def run(raw_data):
     deploy_cols = data_enc.columns
 
     # difference of train and deploy
-    missing_cols = ref_cols.difference(deploy_cols)
+    missing_cols = ref_columns.difference(deploy_cols)
 
     for cols in missing_cols:
         data_enc[cols] = 0
 
-    data_enc = data_enc[ref_cols]
+    data_enc = data_enc[ref_columns]
 
     # Get a prediction from the model
     predictions = predictor.predict(data_enc)

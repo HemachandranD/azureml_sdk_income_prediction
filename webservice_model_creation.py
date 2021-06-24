@@ -59,7 +59,7 @@ X = pd.get_dummies(X)
 
 
 # Extract column names including dummy variables
-train_enc_cols = X.columns
+train_enc_columns = X.columns
 
 
 # Transform Categorical columns in Y dataset to dummy
@@ -109,7 +109,7 @@ import joblib
 
 model_file = "./outputs/models.pkl"
 
-joblib.dump(value=[train_enc_cols, trained_model], filename=model_file)
+joblib.dump(value=[train_enc_columns, trained_model], filename=model_file)
 
 
 # Complete the run

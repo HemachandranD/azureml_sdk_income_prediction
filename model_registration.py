@@ -23,7 +23,7 @@ new_run = ws.get_run("****run ID****")
 # --------------------------------------------------------------------
 new_run.register_model(
     model_path="outputs/models.pkl",
-    model_name="AdultIncome_model",
+    model_name="AdultIncome_models",
     tags={"source": "SDK Run", "algorithm": "RandomForest"},
     properties={"Accuracy": new_run.get_metrics()["accuracy"]},
     description="Combined Models from Run",
