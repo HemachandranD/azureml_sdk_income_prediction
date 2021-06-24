@@ -44,13 +44,13 @@ Microsoft Azure Account, Python IDE and Python Knowledge
 
 ![Alt Image text](/screenshots/10.png?raw=true "aks_status")
 
+## Consuming API using End Point
+
+![Alt Image text](/screenshots/11.png?raw=true "web_api_endpoint")
+
 ## Consuming API using Workspace
 
 ![Alt Image text](/screenshots/11.png?raw=true "web_api_ws")
-
-## Consuming API using End point
-
-![Alt Image text](/screenshots/11.png?raw=true "web_api_endpoint")
 
 # Author Information
 
