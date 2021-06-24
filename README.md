@@ -8,7 +8,9 @@ This Python Project uses the Azure-ML functionalities using the Azure SDK and ma
 
 Microsoft Azure Account, Python IDE and Python Knowledge
 
-https://user-images.githubusercontent.com/24708259/123276727-0f2b4e00-d523-11eb-8982-c2a84d56d504.png
+## create_workspace
+
+![Alt Image text](/screenshots/1.png?raw=true "ws")
 
 # Author Information
 
