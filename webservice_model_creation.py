@@ -22,14 +22,14 @@ print("Accessing the workspace....")
 ws = Workspace.from_config("./config")
 
 print("Accessing the dataset....")
-az_dataset = Dataset.get_by_name(ws, "AdultIncome")
+az_dataset = Dataset.get_by_name(ws, "Adult Income")
 
 
 # -----------------------------------------------------
 # Create/Access an experiment object
 # -----------------------------------------------------
 print("Accessing/Creating the experiment...")
-experiment = Experiment(workspace=ws, name="Webservice-exp01")
+experiment = Experiment(workspace=ws, name="Webservice-exp001")
 
 
 # -----------------------------------------------------

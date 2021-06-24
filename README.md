@@ -8,9 +8,25 @@ This Python Project uses the Azure-ML functionalities using the Azure SDK and ma
 
 Microsoft Azure Account, Python IDE and Python Knowledge
 
-## create_workspace
+## Create_workspace and Resource Group
 
-![Alt Image text](/screenshots/1.png?raw=true "ws")
+![Alt Image text](/screenshots/2.png?raw=true "workspace")
+
+## Adult Income Dataset
+
+![Alt Image text](/screenshots/3.png?raw=true "dataset")
+
+## webservice-exp01 Experiment
+
+![Alt Image text](/screenshots/4.png?raw=true "experiment")
+
+## Details of webservice-exp01
+
+![Alt Image text](/screenshots/5.png?raw=true "experiment_details")
+
+## Output of webservice-exp01
+
+![Alt Image text](/screenshots/6.png?raw=true "experiment_output")
 
 # Author Information
 
